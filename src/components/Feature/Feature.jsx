@@ -26,6 +26,7 @@ const Feature = () => {
                          ></FeaCard>)
                 }
             </div>
+            <button className='btn btn-primary mx-auto'>See All Jobs</button>
         </div>
     );
 };

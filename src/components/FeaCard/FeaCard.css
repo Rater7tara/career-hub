@@ -11,7 +11,12 @@
 }
 .btn-div{
     gap: 2rem;
+    margin-top: 1rem;
 }
 .p-div{
     gap: 2rem;
+    margin-top: 1rem;
+}
+.loc-img{
+    width: 1.5rem;
 }
