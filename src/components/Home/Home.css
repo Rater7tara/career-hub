@@ -1,3 +1,35 @@
+.home-container{
+    background-color: RGB(248, 249, 250);
+    width: 100%;
+}
+.card{
+    border: none;
+}
+.card h1{
+    font-size: 5rem;
+}
+.btn{
+    width: 170px;
+    margin: 5px;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+    transition: 0.6s;
+
+}
+.btn-primary{
+    background-image: linear-gradient(to left,#D980FA,#9980FA,#5758BB);
+}
+.btn:hover{
+    background-position: right;
+}
+.banner{
+    width: 45vw;
+    height: 75vh
+}
 .color{
     color: blueviolet;
 }
