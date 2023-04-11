@@ -25,8 +25,6 @@ const Category = () => {
                 ></CateCard>)
             }
             </div>
-            
-            
         </div>
     );
 };

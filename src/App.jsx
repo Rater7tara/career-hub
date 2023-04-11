@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Category from './components/Category/Category';
+import Feature from './components/Feature/Feature';
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <div>
         <Home></Home>
         <Category></Category>
+        <Feature></Feature>
       </div>
     </div>
   )

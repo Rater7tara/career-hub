@@ -1,0 +1,17 @@
+.fea-img{
+    width: 15rem;
+    margin: 1rem;
+}
+.main{
+ width: 100%;
+}
+.feature-con{
+    width: 38vw;
+    position: relative;
+}
+.btn-div{
+    gap: 2rem;
+}
+.p-div{
+    gap: 2rem;
+}
