@@ -19,7 +19,7 @@ const Header = () => {
                         navbarScroll
                     >
                         <Link to="/">Home</Link>
-                        <Link to="/Details">Statistics</Link>
+                        <Link to="/Statistics">Statistics</Link>
                         <Link to="/JobApply">Applied Jobs</Link>
                         <Link to="/Blog">Blog</Link>
 

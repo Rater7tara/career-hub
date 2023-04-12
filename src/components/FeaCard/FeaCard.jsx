@@ -1,8 +1,9 @@
 import React from 'react';
 import './FeaCard.css'
+import { Link } from 'react-router-dom';
 
 const FeaCard = (props) => {
-    const { logo, title, logoName, location, salary, btn1, btn2 } = props.feature;
+    const { logo, title, logoName, location, salary, btn1, btn2,id} = props.feature;
 
 
     return (
@@ -19,7 +20,9 @@ const FeaCard = (props) => {
                     <p><img className='loc-img' src={"https://img.icons8.com/ios-filled/256/where.png"} alt="" /> {location}</p>
                     <p><img className='loc-img' src={"https://img.icons8.com/ios-filled/256/us-dollar-circled--v2.png"} alt="" /> Salary: {salary}</p>
                 </div>
-                <button className='btn btn-primary'>View Details</button>
+                <Link to={`/Details/${id}`}>
+                    <button className='btn btn-primary'>View Details</button>
+                </Link>
             </div>
         </div>
     );

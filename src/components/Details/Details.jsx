@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 
 const Details = () => {
+    
     return (
         <div className='detail-container'>
             <div className='banner-div'>

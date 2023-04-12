@@ -7,7 +7,14 @@
         "location": "Dhaka,Bangladesh",
         "salary": "100k - 150k",
         "btn1": "Remote",
-        "btn2": "Full Time"
+        "btn2": "Full Time",
+        "jobDescription": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education": " Bachelor degree to complete any reputational university",
+        "experience": "1-2 Years in this field"
+
+
+
     },
     {
         "id": 2,
@@ -17,7 +24,11 @@
         "location": "Dhaka,Bangladesh",
         "salary": "100k - 150k",
         "btn1": "Onsite",
-        "btn2": "Full Time"
+        "btn2": "Full Time",
+        "jobDescription": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education": " Bachelor degree to complete any reputational university",
+        "experience": "3-4 Years in this field"
     },
     {
         "id": 3,
@@ -27,7 +38,11 @@
         "location": "Dhaka,Bangladesh",
         "salary": "100k - 150k",
         "btn1": "Onsite",
-        "btn2": "Full Time"
+        "btn2": "Full Time",
+        "jobDescription": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education": " Bachelor degree to complete any reputational university",
+        "experience": "1-2 Years in this field"
     },
     {
         "id": 4,
@@ -37,6 +52,10 @@
         "location": "Dhaka,Bangladesh",
         "salary": "100k - 150k",
         "btn1": "Remote",
-        "btn2": "Full Time"
+        "btn2": "Full Time",
+        "jobDescription": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education": " Bachelor degree to complete any reputational university",
+        "experience": "2-3 Years in this field"
     }
 ]
