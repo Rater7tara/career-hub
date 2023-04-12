@@ -22,7 +22,6 @@ function App() {
         <Feature></Feature>
       </div>
       <div>
-        <Details></Details>
       </div>
       <Footer></Footer>
     </div>

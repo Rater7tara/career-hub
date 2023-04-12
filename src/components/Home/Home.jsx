@@ -12,7 +12,7 @@ const Home = () => {
                 <Button className='btn-primary' variant="primary">Get started</Button>
             </div>
             <div className='card bg-light w-50'>
-                <img className='banner' src={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FyZWVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'} alt="" />
+                <img className='banner' src={'https://img.freepik.com/premium-photo/join-our-team-text-lightbox-composition-white-table-background-business-concept_34933-305.jpg?size=626&ext=jpg&ga=GA1.1.205563488.1680186315&semt=ais'} alt="" />
             </div>
             </div>
         </div>
