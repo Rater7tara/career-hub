@@ -57,11 +57,11 @@ const Footer = () => {
 
         </div>
       </div>
-      
+
       <div className='last d-flex justify-content-between bg-dark text-white'>
-          <p>@2023 DreamJob, All Right Reserved</p>
-          <p>Powered by DreamJob</p>
-        </div>
+        <p>@2023 DreamJob, All Right Reserved</p>
+        <p>Powered by DreamJob</p>
+      </div>
     </div>
   );
 };

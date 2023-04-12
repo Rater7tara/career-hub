@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -17,10 +18,10 @@ const Header = () => {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/Details">Statistics</Nav.Link>
-                        <Nav.Link href="/Applied">Applied Jobs</Nav.Link>
-                        <Nav.Link href="/Blog">Blog</Nav.Link>
+                        <Link to="/">Home</Link>
+                        <Link to="/Details">Statistics</Link>
+                        <Link to="/JobApply">Applied Jobs</Link>
+                        <Link to="/Blog">Blog</Link>
 
                     </Nav>
 

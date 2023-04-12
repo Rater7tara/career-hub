@@ -11,10 +11,10 @@ const CateCard = (props) => {
             <div className=''>
                 <h4 className=''>{name}</h4>
                 <p>{detail}</p>
-                
+
             </div>
         </div>
-    
+
     );
 };
 

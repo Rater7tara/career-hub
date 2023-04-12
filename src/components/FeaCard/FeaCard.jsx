@@ -2,7 +2,7 @@ import React from 'react';
 import './FeaCard.css'
 
 const FeaCard = (props) => {
-    const { logo, title, logoName, location, salary, btn1, btn2} = props.feature;
+    const { logo, title, logoName, location, salary, btn1, btn2 } = props.feature;
 
 
     return (

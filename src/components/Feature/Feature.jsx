@@ -8,8 +8,8 @@ const Feature = () => {
 
     useEffect(() => {
         fetch('data2-fea.json')
-        .then(res => res.json())
-        .then(data => setFeatures(data))
+            .then(res => res.json())
+            .then(data => setFeatures(data))
     }, []);
 
 
@@ -19,11 +19,11 @@ const Feature = () => {
             <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div className='feature-container'>
                 {
-                    features.map(feature => 
-                        <FeaCard 
-                        key={feature.id}
-                        feature={feature}
-                         ></FeaCard>)
+                    features.map(feature =>
+                        <FeaCard
+                            key={feature.id}
+                            feature={feature}
+                        ></FeaCard>)
                 }
             </div>
             <button className='btn btn-primary mx-auto mb-5'>See All Jobs</button>
