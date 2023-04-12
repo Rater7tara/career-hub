@@ -1,0 +1,22 @@
+.detail-container{
+
+}
+.banner-div{
+ position: relative;
+ margin: auto;
+}
+.det-banner{
+    width: 100%;
+    height: 60vh;
+}
+.sec-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-del{
+    width: 30%;
+}
+.job-desc{
+    width: 60%;
+}
