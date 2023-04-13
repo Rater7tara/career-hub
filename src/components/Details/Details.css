@@ -1,22 +1,25 @@
-.detail-container{
+.detail-container {}
 
+.banner-div {
+    position: relative;
+    margin: auto;
 }
-.banner-div{
- position: relative;
- margin: auto;
-}
-.det-banner{
+
+.det-banner {
     width: 100%;
-    height: 65vh;
+    height: 62vh;
 }
-.sec-part{
+
+.sec-part {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.card-del{
+
+.card-del {
     width: 30%;
 }
-.job-desc{
+
+.job-desc {
     width: 60%;
 }

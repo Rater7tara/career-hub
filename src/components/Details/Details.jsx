@@ -2,10 +2,13 @@ import React from 'react';
 import './Details.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import {useLoaderData} from 'react-router-dom';
 
 
-const Details = () => {
-
+const Details = (job) => {
+ const jobs = useLoaderData()
+ console.log(jobs)
+ const { jobDescription} = job;
     return (
         <div className='detail-container'>
             <div className='banner-div'>
@@ -20,7 +23,7 @@ const Details = () => {
                 <div className='job-desc'>
                     <ul className="mt-4 g-4 text-start">
                         <li>
-                            <h5 className='fw-bold'>Job Description: <span className='fw-normal'> { }</span></h5>
+                            <h5 className='fw-bold'>Job Description: <span className='fw-normal'> {jobDescription}</span></h5>
                         </li>
                         <li>
                             <h5 className='fw-bold'>Job Responsibility: <span className='fw-normal'> { }</span></h5>

@@ -12,7 +12,6 @@ import Statistics from './components/Statistics/Statistics';
 import JobApply from './components/JobApply/JobApply';
 import Blog from './components/Blog/Blog';
 import Details from './components/Details/Details';
-import jobLoader from './loaders/jobLoaders';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +29,7 @@ const router = createBrowserRouter([
       {
         path: "Details/:id",
         element: <Details></Details>,
+        loader: ({params}) => fetch ('/data2-fea.json')
       
       },
       {
