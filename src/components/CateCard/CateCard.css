@@ -1,6 +1,7 @@
 .img{
     width: 3rem;
     margin: 1rem;
+    color: rgb(232, 208, 253);
 }
 .main{
  width: 100%;
@@ -8,4 +9,18 @@
 .card-con{
     width: 16vw;
     position: relative;
+    background-color: rgb(232, 208, 253);
+}
+@media screen and (max-width:576px){
+    .card-con{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .img{
+        text-align: center;
+        margin: auto;
+        margin-top: 1rem;
+        width: 20%;
+    }
 }

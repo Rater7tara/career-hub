@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 
 const Details = () => {
-    
+
     return (
         <div className='detail-container'>
             <div className='banner-div'>
@@ -20,16 +20,16 @@ const Details = () => {
                 <div className='job-desc'>
                     <ul className="mt-4 g-4 text-start">
                         <li>
-                            <h5 className='fw-bold'>Job Description: <span className='fw-normal'> A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.</span></h5>
+                            <h5 className='fw-bold'>Job Description: <span className='fw-normal'> { }</span></h5>
                         </li>
                         <li>
-                            <h5 className='fw-bold'>Job Responsibility: <span className='fw-normal'> Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.</span></h5>
+                            <h5 className='fw-bold'>Job Responsibility: <span className='fw-normal'> { }</span></h5>
                         </li>
                         <li>
-                            <h5 className='fw-bold'>Educational Requirements: <br /> <span className='fw-normal'> Bachelor degree to complete any reputational university</span></h5>
+                            <h5 className='fw-bold'>Educational Requirements: <br /> <span className='fw-normal'> { }</span></h5>
                         </li>
                         <li>
-                            <h5 className='fw-bold'>Experiences: <br /> <span className='fw-normal'> 2-3 Years in this field</span></h5>
+                            <h5 className='fw-bold'>Experiences: <br /> <span className='fw-normal'> { }</span></h5>
                         </li>
 
                     </ul>
@@ -41,10 +41,10 @@ const Details = () => {
 
                             <Card.Text>
                                 <h5 className='mt-3' ><span className='fw-bold'>Salary:</span>
-                                    <span className='text-muted'> 100k-150k (Per Month)</span></h5>
+                                    <span className='text-muted'> { } (Per Month)</span></h5>
 
                                 <h5 className='mt-3'><span className='fw-bold'>Job Title:</span>
-                                    <span className='text-muted'> Product Designer</span></h5>
+                                    <span className='text-muted'> { }</span></h5>
 
                             </Card.Text>
                             <h4 className='fw-bold'>Contact Information</h4>

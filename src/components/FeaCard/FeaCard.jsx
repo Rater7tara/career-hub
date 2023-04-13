@@ -24,6 +24,7 @@ const FeaCard = (props) => {
                     <button className='btn btn-primary'>View Details</button>
                 </Link>
             </div>
+            
         </div>
     );
 };
