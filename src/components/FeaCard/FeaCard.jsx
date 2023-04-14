@@ -3,7 +3,7 @@ import './FeaCard.css'
 import { Link } from 'react-router-dom';
 
 const FeaCard = (props) => {
-    const { logo, title, logoName, location, salary, btn1, btn2,id} = props.feature;
+    const { logo, title, logoName, location, salary, btn1, btn2, id } = props.feature;
 
 
     return (
@@ -24,7 +24,7 @@ const FeaCard = (props) => {
                     <button className='btn btn-primary'>View Details</button>
                 </Link>
             </div>
-            
+
         </div>
     );
 };

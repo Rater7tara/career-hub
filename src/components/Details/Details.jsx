@@ -41,7 +41,7 @@ const Details = () => {
     return (
 
         <div className='detail-container'>
-            
+
             <div className='banner-div'>
                 <img className='det-banner
                 ' src={'https://img.freepik.com/free-photo/flat-lay-arrangement-with-tablet-plans-copy-space_23-2148269419.jpg?size=626&ext=jpg&ga=GA1.1.205563488.1680186315&semt=ais'} alt="" />
