@@ -1,13 +1,25 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
-import Feature from '../Feature/Feature';
+import { useEffect, useState } from "react";
+import FeaCard from '../FeaCard/FeaCard';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 
 
 const JobApply = () => {
-    const jobs = useLoaderData();
-    console.log(jobs);
+    
+    const [items, setItems] = useState([]);
+    const [filter, setFilter] = useState([]);
 
+    useEffect(() => {
+      const items = JSON.parse(localStorage.getItem('jobs'));
+      if (items) {
+       setItems(items);
+      }
+    }, []);
+    console.log(items);
+    
     return (
         <div>
             <div className='banner-div'>
@@ -18,8 +30,25 @@ const JobApply = () => {
                 </div>
                 
             </div>
+            <div>
+            <DropdownButton
+        as={ButtonGroup}
+        title="Job_Type"
+        id="bg-vertical-dropdown-1"
+      >
+        <Dropdown.Item value="Onsite">Dropdown link</Dropdown.Item>
+        <Dropdown.Item value="Remote">Dropdown link</Dropdown.Item>
+      </DropdownButton>
+            </div>
 
             <div className='job-container'>
+            {
+                    items.map(item =>
+                        <FeaCard
+                            key={item.id}
+                            feature={item}
+                        ></FeaCard>)
+                }
             </div>
         </div>
     );
