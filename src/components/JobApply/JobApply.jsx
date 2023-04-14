@@ -7,7 +7,6 @@ import Feature from '../Feature/Feature';
 const JobApply = () => {
     const jobs = useLoaderData();
     console.log(jobs);
-    const notify = () => toast("Wow so easy!");
 
     return (
         <div>

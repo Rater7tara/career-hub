@@ -29,7 +29,14 @@ const router = createBrowserRouter([
       {
         path: "Details/:id",
         element: <Details></Details>,
-        loader: ({params}) => fetch ('/data2-fea.json')
+
+        loader: async ({params}) => {
+          const res = await fetch("/data2-fea.json");
+          const jobs = await res.json();
+
+          const findJobs = jobs.find(job => job.id == params.id);
+          return findJobs;
+        }
       
       },
       {

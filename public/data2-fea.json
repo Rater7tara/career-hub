@@ -5,16 +5,15 @@
         "title": "Technical Database Engineer",
         "logoName": "Google LLc",
         "location": "Dhaka,Bangladesh",
-        "salary": "100k - 150k",
+        "salary": "50k - 80k",
         "btn1": "Remote",
         "btn2": "Full Time",
         "jobDescription": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": " Bachelor degree to complete any reputational university",
-        "experience": "1-2 Years in this field"
-
-
-
+        "experience": "1-2 Years in this field",
+        "phone": "01820-20-00-00",
+        "email": "digital@gmail.com"
     },
     {
         "id": 2,
@@ -28,7 +27,9 @@
         "jobDescription": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": " Bachelor degree to complete any reputational university",
-        "experience": "3-4 Years in this field"
+        "experience": "3-4 Years in this field",
+        "phone": "01820-20-00-00",
+        "email": "digital@gmail.com"
     },
     {
         "id": 3,
@@ -36,19 +37,21 @@
         "title": "Software Engineer",
         "logoName": "Telsa",
         "location": "Dhaka,Bangladesh",
-        "salary": "100k - 150k",
+        "salary": "10k - 15k",
         "btn1": "Onsite",
         "btn2": "Full Time",
         "jobDescription": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": " Bachelor degree to complete any reputational university",
-        "experience": "1-2 Years in this field"
+        "experience": "1-2 Years in this field",
+        "phone": "01820-20-00-00",
+        "email": "digital@gmail.com"
     },
     {
-        "id": 4,
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS5o06VcstthXDvIdPqugPfJRtV0xsuJbDuvD9tnZre2oUL90&s",
-        "title": "Content Maker",
-        "logoName": "Youtube",
+        "id": 5,
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUGoJmAV1loUka9Hxsym3YXtqQitqfni36njg4GdAkLJR3Zpst&s",
+        "title": "Marketing director",
+        "logoName": "Spotify",
         "location": "Dhaka,Bangladesh",
         "salary": "100k - 150k",
         "btn1": "Remote",
@@ -56,6 +59,41 @@
         "jobDescription": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": " Bachelor degree to complete any reputational university",
-        "experience": "2-3 Years in this field"
+        "experience": "2-3 Years in this field",
+        "phone": "01830-70-80-00",
+        "email": "mark@gmail.com"
+        
+    },
+    {
+        "id": 4,
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS5o06VcstthXDvIdPqugPfJRtV0xsuJbDuvD9tnZre2oUL90&s",
+        "title": "Content Maker",
+        "logoName": "Youtube",
+        "location": "Dhaka,Bangladesh",
+        "salary": "200k - 250k",
+        "btn1": "Remote",
+        "btn2": "Full Time",
+        "jobDescription": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education": " Bachelor degree to complete any reputational university",
+        "experience": "2-3 Years in this field",
+        "phone": "01820-20-00-00",
+        "email": "content@gmail.com"
+    },
+    {
+        "id": 6,
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAFnra860GVVmnAH_Jqkq-ic6GV7Teptpo01r3R-VunZPEW_M&s",
+        "title": "digital Marketing",
+        "logoName": "Dell",
+        "location": "khulna,Bangladesh",
+        "salary": "70k - 80k",
+        "btn1": "Remote",
+        "btn2": "Full Time",
+        "jobDescription": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education": " Bachelor degree to complete any reputational university",
+        "experience": "2-3 Years in this field",
+        "phone": "01820-20-00-00",
+        "email": "digital@gmail.com"
     }
 ]
