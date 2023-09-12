@@ -3,12 +3,12 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const Blog = () => {
     return (
-        <div className='blog-div'>
+        <div className='container'>
             <div className='banner-div'>
                 <img className='det-banner
-                ' src={'https://img.freepik.com/premium-photo/blog-writing-online-internet-computer_770123-5681.jpg?size=626&ext=jpg&ga=GA1.1.205563488.1680186315&semt=ais'} alt="" />
+                ' src={'https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303525.jpg?size=626&ext=jpg&uid=R101399449&ga=GA1.1.205563488.1680186315&semt=robertav1_2_sidr'} alt="" />
             </div>
-            <div>
+            <div className='container'>
                 <Accordion defaultActiveKey="0" className='text-start'>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>1. When are Custom API used?</Accordion.Header>
